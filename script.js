@@ -1,5 +1,5 @@
 function setup(){
-  createCanvas(600, 400);
+  createCanvas(400, 400);
 }
 
 function draw(){
@@ -20,5 +20,25 @@ function draw(){
 
   ellipse(width/2 - 0, height/2 + 14 , 6); // mouth
 
-}
+  rect (width/2 - 17, height/2 - 25 , 5); 
+  rect (width/2 + 12, height/2 - 25 , 5); 
+
+  fill (158); 
+  strokeWeight (1); 
+  rect (width/2 - 60, height/2 - 50 , 14); 
+  rect (width/2 + 48, height/2 - 50 , 14); 
+
+  fill(0);
+  line(8,0,4); 
+
+  
+  }
+  
+  
+
+  
+
+  
+
+
 
